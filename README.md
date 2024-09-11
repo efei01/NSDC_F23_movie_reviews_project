@@ -7,3 +7,4 @@ My tasks included:
 - calculating the sum of the word weights for each review
 - grouping reviews into bins based on summed word weights
 - testing the validity of our bins on sample online movie reviews
+The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
