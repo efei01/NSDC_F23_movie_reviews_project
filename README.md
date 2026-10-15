@@ -17,7 +17,8 @@ The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/l
 1) Non-English characters and punctuation were removed from each review using regular expression patterns
 2) Each review was tokenized into an array of individual words
    ![](README_images/tokenization_example.png)
-4) ...
+4) Stop words were removed from each review. Stop words are high-frequency words that don't contribute significant sentiment (e.g., of, the, has)
+    
 
 ## Modeling
 
