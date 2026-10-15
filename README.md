@@ -16,8 +16,7 @@ The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/l
 ## Preprocessing
 1) Non-English characters and punctuation were removed from each review using regular expression patterns
 2) Each review was tokenized into an array of individual words
-   
-   Ex: ![](README_images/tokenization_example.png)
+   ![](README_images/tokenization_example.png)
 4) ...
 
 ## Modeling
