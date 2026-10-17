@@ -10,8 +10,10 @@ The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/l
 1) Non-English characters and punctuation were removed from each review using regular expression patterns
 2) Each review was tokenized into an array of individual words
    ![](README_images/tokenization_example.png)
-3) Stop words were removed from each review. Stop words are high-frequency words that don't contribute significant sentiment (e.g., of, the, has)
+3) Stop words were removed from each review. Stop words are high-frequency words that don't contribute significant sentiment (e.g., of, the, has). Notice the difference in the token array between the below image and the above image
    ![](README_images/stop_word_removal_example.png)
+4) Words in each review were lemmatized. Lemmatization is a generalization of words to their base form. For instance, we can generalize "goes" and "going" to "go". In the below image, notice that "mentioned" and "watching" have been changed to "mention" and "watch" respectively
+   ![](README_images/lemmatization_example.png)
 
 ## Modeling
 
