@@ -14,6 +14,7 @@ The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/l
    ![](README_images/stop_word_removal_example.png)
 4) Words in each review were lemmatized. Lemmatization is a generalization of words to their base form. For instance, we can generalize "goes" and "going" to "go". In the below image, notice that "mentioned" and "watching" have been changed to "mention" and "watch" respectively
    ![](README_images/lemmatization_example.png)
+5) Lastly, we used scikit-learn's CountVectorizer to identify all the unique words in the dataset and how many times each of the words appears in each review 
 
 ## Modeling
 
