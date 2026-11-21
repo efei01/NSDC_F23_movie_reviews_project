@@ -19,6 +19,7 @@ The Kaggle dataset we used can be found [here](https://www.kaggle.com/datasets/l
 5) Lastly, we used scikit-learn's CountVectorizer to identify the unique words in the dataset and how many times each of the words appears in each review. **IMPORTANTLY**, instead of vectorizing all reviews simultaneously, CountVectorizer was included as a preprocessing step in a scikit-learn Pipeline object during modeling to avoid data leakage from data splitting!
 
 ## Modeling
-
+in progress...
 
 ## Creating Rating Bins
+in progress...
